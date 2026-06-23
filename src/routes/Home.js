@@ -6,7 +6,12 @@ import Footer from "../components/Footer";
 function Home() {
   return (
     <>
-      <Hero />
+      <Hero
+        title="Your Journey Your Story"
+        subtitle="Choose your Favorite Destination"
+        showButton={true}
+        image="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=1200"
+      />
       <Destination />
       <Trip />
       <Footer />

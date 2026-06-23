@@ -1,65 +1,70 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .hero {
+  position: relative;
   width: 100%;
   height: 100vh;
-  position: relative;
 }
 
+.hero-banner {
+  height: 300px;
+}
 
-/* Full screen image */
 .hero-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
+  filter: brightness(0.6);
 }
 
-
-/* Text on image */
 .hero-container {
   position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  color: white;
-
-  z-index: 2;
+  color: #fff;
+  padding: 0 20px;
 }
 
-
-/* Heading */
 .hero-container h1 {
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hero-container p {
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
-
-/* Paragraph */
-.hero-container p {
-  font-size: 25px;
-  margin-bottom: 30px;
-}
-
-
-/* Button */
 .hero-container button {
-  padding: 14px 35px;
-  font-size: 18px;
-  
+  background: #d32f2f;
+  color: #fff;
   border: none;
-  border-radius: 5px;
-  background-color: #ededed;
-  color: rgb(0, 0, 0);
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 15px;
   cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 .hero-container button:hover {
-  background-color: #e84926;
+  background: #b71c1c;
+}
+
+@media (max-width: 600px) {
+  .hero-container h1 {
+    font-size: 28px;
+  }
+  .hero {
+    height: 100vh;
+  }
+  .hero-banner {
+    height: 250px;
+  }
 }

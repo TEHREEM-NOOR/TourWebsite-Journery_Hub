@@ -11,7 +11,7 @@ const trips = [
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1581791534721-2c2491626b85?w=600",
+    image: "https://images.unsplash.com/photo-1604676055604-fe96097e4f9f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2thcmR1fGVufDB8MHwwfHx8MA%3D%3D",
     title: "Skardu & Deosai Plains",
     desc: "6 days covering Shangrila Resort, Satpara Lake, and the Deosai National Park.",
     price: "Rs. 45,000",
@@ -39,7 +39,7 @@ const trips = [
   },
   {
     id: 6,
-    image: "https://images.unsplash.com/photo-1606298855672-3efb63017f74?w=600",
+    image: "https://plus.unsplash.com/premium_photo-1711217237364-827b31b57e92?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVhZG93c3xlbnwwfDB8MHx8fDA%3D",
     title: "Fairy Meadows Trek",
     desc: "4 days trekking to Fairy Meadows with stunning views of Nanga Parbat.",
     price: "Rs. 40,000",

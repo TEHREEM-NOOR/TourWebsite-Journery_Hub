@@ -1,31 +1,31 @@
 .about-us {
   max-width: 900px;
-  margin: 60px auto;
-  padding: 0 20px;
-  text-align: center;
+  margin: 0 auto;
+  padding: 60px 20px;
 }
 
-.about-us h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
+.about-section {
+  margin-bottom: 40px;
 }
 
-.about-us p {
+.about-section h2 {
+  font-size: 26px;
+  margin-bottom: 14px;
+  color: #1a1a1a;
+}
+
+.about-section p {
   color: #555;
   font-size: 16px;
   line-height: 1.8;
-  margin-bottom: 16px;
 }
 
 .about-stats {
   display: flex;
   justify-content: center;
   gap: 60px;
-  margin-top: 40px;
+  margin-top: 50px;
   flex-wrap: wrap;
-}
-
-.about-stats div {
   text-align: center;
 }
 
@@ -38,4 +38,18 @@
 .about-stats p {
   color: #777;
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .about-us {
+    padding: 40px 16px;
+  }
+
+  .about-section h2 {
+    font-size: 22px;
+  }
+
+  .about-stats {
+    gap: 30px;
+  }
 }

@@ -52,3 +52,19 @@
   margin: 0 16px 16px;
   color: #860000;
 }
+@media (max-width: 768px) {
+  .trip h1 {
+    font-size: 26px;
+  }
+
+  .t-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .t-card {
+    width: 90%;
+    max-width: 350px;
+  }
+}
