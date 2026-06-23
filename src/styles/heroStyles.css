@@ -13,7 +13,7 @@
   height: 100%;
   object-fit: cover;
   display: block;
-  filter: brightness(0.6);
+  filter: brightness(0.8);
 }
 
 .hero-container {
@@ -43,18 +43,19 @@
 }
 
 .hero-container button {
-  background: #d32f2f;
-  color: #fff;
+  background: #fdfdfd;
+  color: #121212;
   border: none;
   padding: 12px 28px;
   border-radius: 6px;
-  font-size: 15px;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 .hero-container button:hover {
-  background: #b71c1c;
+  background: #0073b6;
+  color: #fff;
 }
 
 @media (max-width: 600px) {

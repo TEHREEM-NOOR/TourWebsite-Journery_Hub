@@ -3,24 +3,33 @@
   padding: 50px 20px;
 }
 
+.trip h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
 .t-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 50px;
-  margin-top: 50px;
+  gap: 30px;
+  margin-top: 30px;
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .t-card {
-  width: 350px;
+    height: 410px;
+  width: 320px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  background: #6299b51e;
+  background: #6a98b127;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .t-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
