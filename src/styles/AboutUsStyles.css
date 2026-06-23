@@ -1,0 +1,41 @@
+.about-us {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.about-stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.about-stats div {
+  text-align: center;
+}
+
+.about-stats h2 {
+  font-size: 32px;
+  color: #d32f2f;
+  margin-bottom: 6px;
+}
+
+.about-stats p {
+  color: #777;
+  font-size: 14px;
+}
